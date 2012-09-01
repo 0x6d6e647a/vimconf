@@ -1,4 +1,9 @@
 vimconf
 =======
 
-My Vim Configuration
+My Vim Configuration Files
+
+File Locations
+--------------
+- `vimrc` -> `~/.vimrc`
+- `vim` -> `~/.vim`
