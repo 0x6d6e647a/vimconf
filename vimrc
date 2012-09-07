@@ -17,7 +17,7 @@ set list listchars=tab:>.,trail:.,extends:#,nbsp:.      "Show bad whitespace
 "Search Settings
 set incsearch                           "will show incremental search, like in firefox and emacs
 set smartcase                           "ignore CASE case if search is all lower case, otherwise case sensitive
-set hlsearch!                           "disable highlighting every entry by default
+set nohlsearch                          "disable highlighting every entry by default
 set autochdir                           "change the active working directory for gvim to curr directory
 set wildignore=*.swp,*.bak,*.pyc,*.class,*.aux,*.hi     "Ignore files type when auto-completing
 
