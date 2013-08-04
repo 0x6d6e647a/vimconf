@@ -31,6 +31,8 @@ filetype plugin indent on               "enable special per language features
 autocmd filetype lisp set lisp tabstop=2 shiftwidth=2
 autocmd filetype tex set spell autowrite textwidth=80 makeprg=latexmk\ -pdf\ %
 autocmd filetype haskell set tabstop=2 shiftwidth=2
+"The jess highlighter is used for CLIPS
+autocmd filetype jess set lisp tabstop=2 shiftwidth=2
 autocmd BufNewFile,BufRead *.mkd set tabstop=2 shiftwidth=2 textwidth=80
 "Haskell Syntax Highlight Options
 let hs_highlight_delimiters=1
